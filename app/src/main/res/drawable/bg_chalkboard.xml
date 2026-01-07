@@ -1,0 +1,28 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="1920dp"
+    android:height="1080dp"
+    android:viewportWidth="1920"
+    android:viewportHeight="1080">
+    <!-- Dark green chalkboard -->
+    <path
+        android:fillColor="#2D5016"
+        android:pathData="M0,0 L1920,0 L1920,1080 L0,1080 Z" />
+    <!-- Wooden frame -->
+    <path
+        android:fillColor="#8B4513"
+        android:pathData="M0,0 L1920,0 L1920,30 L0,30 Z" />
+    <path
+        android:fillColor="#8B4513"
+        android:pathData="M0,1050 L1920,1050 L1920,1080 L0,1080 Z" />
+    <path
+        android:fillColor="#8B4513"
+        android:pathData="M0,0 L30,0 L30,1080 L0,1080 Z" />
+    <path
+        android:fillColor="#8B4513"
+        android:pathData="M1890,0 L1920,0 L1920,1080 L1890,1080 Z" />
+    <!-- Chalk dust effect -->
+    <path
+        android:fillColor="#3D6B1E"
+        android:fillAlpha="0.3"
+        android:pathData="M100,500 L200,480 L180,550 Z M800,300 L850,320 L820,380 Z" />
+</vector>

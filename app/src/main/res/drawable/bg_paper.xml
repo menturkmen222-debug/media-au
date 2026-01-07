@@ -1,0 +1,23 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="1920dp"
+    android:height="1080dp"
+    android:viewportWidth="1920"
+    android:viewportHeight="1080">
+    <!-- Cream/beige paper texture -->
+    <path
+        android:fillColor="#FFF8E7"
+        android:pathData="M0,0 L1920,0 L1920,1080 L0,1080 Z" />
+    <!-- Paper lines -->
+    <path
+        android:strokeColor="#E8DCC8"
+        android:strokeWidth="1"
+        android:pathData="M100,150 L1820,150 M100,200 L1820,200 M100,250 L1820,250 M100,300 L1820,300 
+            M100,350 L1820,350 M100,400 L1820,400 M100,450 L1820,450 M100,500 L1820,500
+            M100,550 L1820,550 M100,600 L1820,600 M100,650 L1820,650 M100,700 L1820,700
+            M100,750 L1820,750 M100,800 L1820,800 M100,850 L1820,850 M100,900 L1820,900" />
+    <!-- Red margin line -->
+    <path
+        android:strokeColor="#FFCCCC"
+        android:strokeWidth="2"
+        android:pathData="M150,50 L150,1030" />
+</vector>

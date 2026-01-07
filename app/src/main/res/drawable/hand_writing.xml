@@ -1,0 +1,30 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+    <!-- Hand holding a pen/marker for writing -->
+    <path
+        android:fillColor="#FFDAB9"
+        android:pathData="M60,140 
+            L55,120 
+            C50,110 55,100 65,95 
+            L100,80 
+            L110,95 
+            L80,115 
+            L90,145 
+            C95,160 85,170 70,165 
+            L60,140 Z" />
+    <!-- Pen/Marker -->
+    <path
+        android:fillColor="#333333"
+        android:pathData="M95,75 L140,30 L150,40 L105,85 Z" />
+    <!-- Pen tip -->
+    <path
+        android:fillColor="#2196F3"
+        android:pathData="M140,30 L155,20 L160,25 L150,40 Z" />
+    <!-- Fingers wrapped around pen -->
+    <path
+        android:fillColor="#F5C6A5"
+        android:pathData="M98,80 L100,70 L110,80 L105,88 Z" />
+</vector>

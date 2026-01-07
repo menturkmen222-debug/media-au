@@ -1,0 +1,20 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="1920dp"
+    android:height="1080dp"
+    android:viewportWidth="1920"
+    android:viewportHeight="1080">
+    <!-- Classic whiteboard gradient background -->
+    <path
+        android:fillColor="#FAFAFA"
+        android:pathData="M0,0 L1920,0 L1920,1080 L0,1080 Z" />
+    <!-- Subtle texture lines -->
+    <path
+        android:strokeColor="#F0F0F0"
+        android:strokeWidth="1"
+        android:pathData="M0,200 L1920,200 M0,400 L1920,400 M0,600 L1920,600 M0,800 L1920,800" />
+    <!-- Board frame -->
+    <path
+        android:strokeColor="#E0E0E0"
+        android:strokeWidth="4"
+        android:pathData="M20,20 L1900,20 L1900,1060 L20,1060 Z" />
+</vector>

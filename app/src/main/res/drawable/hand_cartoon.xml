@@ -1,0 +1,36 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+    <!-- Cartoon-style drawing hand -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:strokeColor="#333333"
+        android:strokeWidth="3"
+        android:pathData="M100,170 
+            C80,170 65,155 65,135 
+            L65,110 
+            C65,100 72,95 82,95 
+            L85,95 
+            L85,55 
+            C85,42 95,35 110,35 
+            C125,35 135,42 135,55 
+            L135,95 
+            L138,95 
+            C148,95 155,100 155,110 
+            L155,135 
+            C155,155 140,170 120,170 
+            Z" />
+    <!-- Finger lines -->
+    <path
+        android:strokeColor="#333333"
+        android:strokeWidth="2"
+        android:pathData="M85,55 L85,95 M135,55 L135,95" />
+    <!-- Wrist -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:strokeColor="#333333"
+        android:strokeWidth="3"
+        android:pathData="M75,170 L75,190 L145,190 L145,170" />
+</vector>

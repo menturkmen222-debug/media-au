@@ -1,0 +1,33 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+    <!-- Drawing hand with index finger pointing -->
+    <path
+        android:fillColor="#FFDAB9"
+        android:pathData="M100,180 
+            C85,180 75,170 75,155 
+            L75,120 
+            C75,110 80,105 90,105 
+            L95,105 
+            L95,60 
+            C95,50 100,45 110,45 
+            C120,45 125,50 125,60 
+            L125,105 
+            L130,105 
+            C140,105 145,110 145,120 
+            L145,155 
+            C145,170 135,180 120,180 
+            Z" />
+    <!-- Finger details -->
+    <path
+        android:fillColor="#F5C6A5"
+        android:pathData="M95,60 L95,105 L125,105 L125,60 
+            C125,55 120,50 110,50 
+            C100,50 95,55 95,60 Z" />
+    <!-- Wrist/arm -->
+    <path
+        android:fillColor="#FFDAB9"
+        android:pathData="M80,180 L80,195 L140,195 L140,180" />
+</vector>

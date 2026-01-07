@@ -1,0 +1,14 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="100dp"
+    android:height="100dp"
+    android:viewportWidth="100"
+    android:viewportHeight="100">
+    <!-- Star doodle -->
+    <path
+        android:strokeColor="#FFD700"
+        android:strokeWidth="4"
+        android:fillColor="#FFF59D"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M50,15 L58,38 L82,38 L63,53 L71,78 L50,62 L29,78 L37,53 L18,38 L42,38 Z" />
+</vector>
